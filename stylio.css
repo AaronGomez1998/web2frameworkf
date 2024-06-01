@@ -1,0 +1,85 @@
+
+/* Custom Colors */
+:root {
+  --primary-color: #3d4146; 
+  --secondary-color: #f30505; 
+  --background-color: #e7e790;
+  --text-color: #333333; 
+  --heading-color: #222222; 
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+.navbar {
+  background-color: var(--primary-color);
+}
+
+.navbar-item {
+  color: rgb(252, 248, 248);
+}
+
+.navbar-item:hover {
+  background-color: var(--secondary-color);
+}
+
+.navbar-burger span {
+  background-color: rgb(245, 235, 235);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-color);
+  font-family: 'Georgia', serif; 
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  font-size: 2.5rem;  
+}
+
+h2 {
+  font-size: 2rem; 
+}
+
+h3 {
+  font-size: 1.75rem; 
+}
+
+
+p {
+  font-size: 1rem; 
+  margin-bottom: 1rem;
+}
+
+a {
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+.button.is-link {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: rgb(232, 231, 243);
+}
+
+.button.is-link:hover {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+.footer {
+  background-color: var(--primary-color);
+  color: rgb(247, 241, 241);
+  padding: 2rem 1.5rem;
+}
+
+.footer p {
+  margin: 0;
+}
